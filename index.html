@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WorkHub Central</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo"><a href="index.html">WorkHub</a></div>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <ul class="nav-links">
+            <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#membership">A'zolik</a></li>
+            <li><a href="#contact">Bog'lanish</a></li>
+          </ul>
+          <button class="cta-btn">Ro'yxatdan o'tish</button>
+        </div>
+      </nav>
+      <section class="hero" id="main">
+        <div class="hero-content">
+          <h1 class="hero-title">WorkHub Central</h1>
+          <p class="hero-description">
+            Innovatsion va zamonaviy kovorking maydoniga xush kelibsiz! Biz
+            frilanserlar, startaplar va kichik bizneslar uchun ajoyib
+            sharoitlarni taqdim etamiz.
+          </p>
+          <a href="#xizmatlar" class="hero-btn">Xizmatlar bilan tanishing</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Xizmatlar bo'limi -->
+      <section class="services-section" id="services">
+        <div class="container2">
+          <h2 class="section-title">Bizning Xizmatlarimiz</h2>
+          <div class="services-cards">
+            <div class="service-card">
+              <div class="emoji">🧑‍💻</div>
+              <h3>Hot Desk</h3>
+              <p>
+                Jamoat joylarida vaqtinchalik foydalanish uchun ish stollari.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">🖥️</div>
+              <h3>Shaxsiy Ish Stoli</h3>
+              <p>Doimiy ish stoli va maxsus saqlash uchun shkaflar.</p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">🗣️</div>
+              <h3>Meeting Xonasi</h3>
+              <p>Kichik va katta uchrashuvlar uchun zamonaviy xonalar.</p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">🎥</div>
+              <h3>Konferensiya Zali</h3>
+              <p>
+                Videokonferensiyalar uchun to'liq jihozlangan konferensiya
+                xonalari.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Azolik bo'limi -->
+      <section class="membership-section" id="membership">
+        <div class="container2">
+          <h2 class="section-title">A'zolik Paketlarimiz</h2>
+          <div class="membership-cards">
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">💼</div>
+                  <h3>Kunlik A'zolik</h3>
+                  <p>
+                    Birkunlik hot desk va barcha qulayliklardan foydalaning.
+                  </p>
+                  <div class="price">Narx: $10/kun</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🔄</div>
+                  <h3>Moslashuvchan A'zolik</h3>
+                  <p>10 kunlik hot desk va seminarlar uchun chegirmalar.</p>
+                  <div class="price">Narx: $80/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">📂</div>
+                  <h3>Shaxsiy Stol A'zoligi</h3>
+                  <p>Doimiy ish stoli va uchrashuv xonalarida ustuvorlik.</p>
+                  <div class="price">Narx: $150/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🏢</div>
+                  <h3>Shaxsiy Ofis A'zoligi</h3>
+                  <p>Maxsus ofis va 24/7 foydalanish imkoniyati.</p>
+                  <div class="price">Narx: $500/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bog'lanish bo'limi -->
+      <section class="contact-section" id="contact">
+        <div class="container2">
+          <h2 class="section-title">Bog'lanish</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Ismingiz</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ismingizni kiriting"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Elektron pochta</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Pochta manzilingizni kiriting"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Xabar</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Xabaringizni kiriting"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Yuborish</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer bo'limi -->
+    <footer class="footer" id="footer">
+      <div class="container2">
+        <div class="footer-content">
+          <p>&copy; 2025 WorkHub Central. Barcha huquqlar himoyalangan.</p>
+          <ul class="footer-links">
+            <li><a href="#">Maxfiylik siyosati</a></li>
+            <li><a href="#">Foydalanish shartlari</a></li>
+            <li><a href="#">Biz bilan bog'laning</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
