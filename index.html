@@ -3,24 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- (meta description) -->
+    <meta
+      name="description"
+      content="WorkHub Central – bu frilanserlar, startaplar va kichik bizneslar uchun zamonaviy va moslashuvchan ofis yechimlari. Xizmatlar, a’zolik paketlari va ko‘p imkoniyatlar bilan tanishing."
+    />
+
+    <!-- Qidiruv tizimi uchun kalit so'zlar -->
+    <meta
+      name="keywords"
+      content="koforking, coworking, ofis ijarasi, frilanserlar uchun, startaplar uchun, kichik biznes, tadbir maydonlari, yig'ilish xonalari, virtual ofis, 24/7 kirish, WorkHub Central"
+    />
+
+    <!-- Muallif haqida ma'lumot -->
+    <meta name="author" content="Bahrombekov Sanjarbek" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/images/download.ico" type="image/x-icon" />
+
+    <!-- css link ulanishi -->
     <link rel="stylesheet" href="style.css" />
-    <title>WorkHub Central</title>
+
+    <!-- font awesome linki -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Sahifa sarlavhasi -->
+    <title>WorkHub Central - Innovatsion Koforking Markazi</title>
   </head>
   <body>
+    <!-- Header bo'limi -->
     <header>
+      <!-- Navbar bo'limi -->
       <nav class="navbar">
         <div class="container">
           <div class="logo"><a href="index.html">WorkHub</a></div>
-          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
           <ul class="nav-links">
             <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#about-us">Biz haqimizda</a></li>
             <li><a href="#services">Xizmatlar</a></li>
             <li><a href="#membership">A'zolik</a></li>
+            <li><a href="#testimonials">Sharhlar</a></li>
             <li><a href="#contact">Bog'lanish</a></li>
           </ul>
           <button class="cta-btn">Ro'yxatdan o'tish</button>
         </div>
       </nav>
+      <!-- Hero bo'limi -->
       <section class="hero" id="main">
         <div class="hero-content">
           <h1 class="hero-title">WorkHub Central</h1>
@@ -35,30 +73,98 @@
     </header>
 
     <main>
+      <!-- Biz haqimizda bo'limi -->
+      <section id="about-us" class="about-section">
+        <div class="container2">
+          <h2 class="section-title">Biz Haqimizda</h2>
+          <p class="section-description">
+            WorkHub Central - bu frilanserlar, startaplar va kichik bizneslar
+            uchun maxsus yaratilgan zamonaviy koforking markazi. Biz
+            moslashuvchan ish muhiti, yuqori qulayliklar va professional
+            rivojlanish uchun kerak bo'lgan hamma narsani taqdim etamiz.
+          </p>
+
+          <div class="features">
+            <div class="feature-item">
+              <img
+                src="https://images.pexels.com/photos/707372/pexels-photo-707372.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Moslashuvchan ish maydoni"
+              />
+              <h3>Moslashuvchan Ish Maydonlari</h3>
+              <p>
+                Har xil ehtiyojlarga mos keluvchi ish stollari va yig'ilish
+                xonalari.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <img
+                src="https://img.freepik.com/premium-photo/interior-empty-restaurant_1048944-30402807.jpg?w=826"
+                alt="Zamonaviy qulayliklar"
+              />
+              <h3>Zamonaviy Qulayliklar</h3>
+              <p>Tez internet, dam olish zonalari va 24/7 kirish imkoniyati.</p>
+            </div>
+
+            <div class="feature-item">
+              <img
+                src="https://img.freepik.com/free-vector/business-people-with-gear-bulb_24908-56516.jpg?semt=ais_hybrid"
+                alt="Hamjamiyat"
+              />
+              <h3>Innovatsion Hamjamiyat</h3>
+              <p>
+                Networking va hamkorlik imkoniyatlarini yaratish uchun kuchli
+                hamjamiyat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Xizmatlar bo'limi -->
       <section class="services-section" id="services">
         <div class="container2">
           <h2 class="section-title">Bizning Xizmatlarimiz</h2>
           <div class="services-cards">
             <div class="service-card">
-              <div class="emoji">🧑‍💻</div>
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="hot desk"
+                />
+              </div>
               <h3>Hot Desk</h3>
               <p>
                 Jamoat joylarida vaqtinchalik foydalanish uchun ish stollari.
               </p>
             </div>
             <div class="service-card">
-              <div class="emoji">🖥️</div>
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/8532620/pexels-photo-8532620.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="personal desk"
+                />
+              </div>
               <h3>Shaxsiy Ish Stoli</h3>
               <p>Doimiy ish stoli va maxsus saqlash uchun shkaflar.</p>
             </div>
             <div class="service-card">
-              <div class="emoji">🗣️</div>
+              <div class="emoji">
+                <img
+                  src="https://media.istockphoto.com/id/649495828/photo/conference-table-closeup.jpg?b=1&s=612x612&w=0&k=20&c=isVNcM6yvsdCOH-mR63QlBLssE99eu-NBB9TAe3qEmI="
+                  alt="meeting room"
+                />
+              </div>
               <h3>Meeting Xonasi</h3>
               <p>Kichik va katta uchrashuvlar uchun zamonaviy xonalar.</p>
             </div>
             <div class="service-card">
-              <div class="emoji">🎥</div>
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/7991180/pexels-photo-7991180.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Conference hall"
+                />
+              </div>
               <h3>Konferensiya Zali</h3>
               <p>
                 Videokonferensiyalar uchun to'liq jihozlangan konferensiya
@@ -124,8 +230,60 @@
         </div>
       </section>
 
+      <!-- Sharhlar bo'limi -->
+      <section id="testimonials" class="testimonials-section">
+        <div class="container2">
+          <h2 class="section-title">Mijozlar Biz Haqimizda Nima Deyishadi</h2>
+          <p class="section-description">
+            Mijozlarimizning fikrlari biz uchun juda muhim. Ularning fikrlarini
+            tinglab, xizmatlarimizni doimiy ravishda takomillashtirib boramiz.
+          </p>
+          <div class="testimonials">
+            <div class="testimonial-item">
+              <img
+                src="https://media.istockphoto.com/id/1485546774/photo/bald-man-smiling-at-camera-standing-with-arms-crossed.jpg?b=1&s=612x612&w=0&k=20&c=9imIwWTJpXEQGM6sUie2zeO7sKBQiSvpmkopyjv3ZdM="
+                alt="Aliyor Qodirov"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "WorkHub Centralda ishlashni juda yaxshi ko‘raman. Ular taqdim
+                etgan qulayliklar mening samaradorligimni oshirdi!"
+              </p>
+              <h4 class="testimonial-author">Aliyor Qodirov</h4>
+              <span class="testimonial-role">Frilanser</span>
+            </div>
+            <div class="testimonial-item">
+              <img
+                src="https://img.freepik.com/premium-photo/portrait-young-beautiful-woman_274222-9165.jpg?semt=ais_hybrid"
+                alt="Dilnoza Karimova"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "Ish muhiti ajoyib va juda qulay. Ularning hamjamiyati bilan
+                bog‘lanib, bir necha ajoyib loyihalar ustida ishladik."
+              </p>
+              <h4 class="testimonial-author">Dilnoza Karimova</h4>
+              <span class="testimonial-role">Startap Asoschisi</span>
+            </div>
+            <div class="testimonial-item">
+              <img
+                src="https://img.freepik.com/free-photo/cheerful-unshaven-guy-stands-sideways-holds-background-gestures-with-both-hands-as-if-carrying-something-shows-height-thing_273609-18554.jpg?semt=ais_hybrid"
+                alt="Shahzod Ergashev"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "Bu joy mening kichik biznesim uchun mukammal tanlov bo‘ldi.
+                Yig‘ilish xonalari professional va yaxshi jihozlangan."
+              </p>
+              <h4 class="testimonial-author">Shahzod Ergashev</h4>
+              <span class="testimonial-role">Biznes Egasi</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Bog'lanish bo'limi -->
-      <section class="contact-section" id="contact">
+      <!-- <section class="contact-section" id="contact">
         <div class="container2">
           <h2 class="section-title">Bog'lanish</h2>
           <form class="contact-form">
@@ -162,6 +320,80 @@
             <button type="submit" class="submit-btn">Yuborish</button>
           </form>
         </div>
+      </section> -->
+      <section class="contact-section" id="contact">
+        <div class="container2">
+          <h2 class="section-title">Bog'lanish</h2>
+          <p class="contact-description">
+            Savollaringiz yoki takliflaringiz bo‘lsa, quyidagi shakl orqali biz
+            bilan bog‘lanishingiz mumkin. Shuningdek, ofisimizga tashrif
+            buyurishingiz uchun manzilimizni quyida topishingiz mumkin.
+          </p>
+
+          <div class="contact-content">
+            <!-- Form Section -->
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Ismingiz</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ismingizni kiriting"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Elektron pochta</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Pochta manzilingizni kiriting"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Xabar</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Xabaringizni kiriting"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Yuborish</button>
+            </form>
+
+            <!-- Additional Info and Map -->
+            <div class="additional-info-map">
+              <div class="additional-info">
+                <h3>Biz bilan bog'lanish</h3>
+                <p>
+                  <strong>Manzil:</strong> Toshkent shahri, Olmazor tumani,
+                  General G'ofurov ko'chasi, 18-uy
+                </p>
+                <p><strong>Telefon:</strong> +998 91 234 56 78</p>
+                <p><strong>Email:</strong> info@workhubcentral.uz</p>
+                <p>
+                  <strong>Ish vaqti:</strong> Dushanba - Juma: 09:00 - 18:00
+                </p>
+              </div>
+              <div class="map-container">
+                <h3>Manzilimiz</h3>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.762932189674!2d69.20427331528732!3d41.311158279271836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4cd1b5e5f9b%3A0xaadce869c6485766!2sAmir%20Temur%20Square!5e0!3m2!1sen!2s!4v1617712092972!5m2!1sen!2s"
+                  width="100%"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -169,12 +401,15 @@
     <footer class="footer" id="footer">
       <div class="container2">
         <div class="footer-content">
-          <p>&copy; 2025 WorkHub Central. Barcha huquqlar himoyalangan.</p>
           <ul class="footer-links">
-            <li><a href="#">Maxfiylik siyosati</a></li>
-            <li><a href="#">Foydalanish shartlari</a></li>
-            <li><a href="#">Biz bilan bog'laning</a></li>
+            <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#about-us">Biz haqimizda</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#membership">A'zolik</a></li>
+            <li><a href="#testimonials">Sharhlar</a></li>
+            <li><a href="#contact">Bog'lanish</a></li>
           </ul>
+          <p>&copy; 2025 WorkHub Central. Barcha huquqlar himoyalangan.</p>
         </div>
       </div>
     </footer>
